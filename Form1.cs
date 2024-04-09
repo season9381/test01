@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace Test01
 {
+    
     public partial class Form1 : Form
     {
         public Form1()
         {
             InitializeComponent();
+            int a = 0;
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
